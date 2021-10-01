@@ -41,6 +41,8 @@ public class HomePage extends base{
 		LoginPage lp=l.getLogin(); //driver.findElement(By.css()
 		lp.getEmail().sendKeys(Username);
 		lp.getPassword().sendKeys(Password);
+		
+		System.out.println("Code");
 
 		log.info(text);
 		

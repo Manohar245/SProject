@@ -18,6 +18,7 @@ public class AppTest
     public AppTest( String testName )
     {
         super( testName );
+        System.out.println("Push");
     }
 
     /**
@@ -26,6 +27,7 @@ public class AppTest
     public static Test suite()
     {
         return new TestSuite( AppTest.class );
+        
     }
 
     /**
